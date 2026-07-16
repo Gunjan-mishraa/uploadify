@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
-/* ============================================================
-   Design tokens
-   ============================================================ */
+/* Design tokens */
 :root {
   --bg: #0a0a12;
   --bg-soft: #12121f;
@@ -28,9 +26,7 @@
   --shadow-glow: 0 12px 40px -8px rgba(139, 92, 246, 0.45);
 }
 
-/* ============================================================
-   Base
-   ============================================================ */
+/* Base */
 * {
   box-sizing: border-box;
 }
@@ -73,9 +69,7 @@ body {
   background-clip: padding-box;
 }
 
-/* ============================================================
-   Aurora animated background
-   ============================================================ */
+/* Aurora animated background */
 .aurora {
   position: relative;
   min-height: 100vh;
@@ -135,9 +129,7 @@ body {
   to   { transform: translate3d(-5rem, -3rem, 0) scale(1); }
 }
 
-/* ============================================================
-   Glass card
-   ============================================================ */
+/*  Glass card */
 .glass {
   background: var(--surface-strong);
   border: 1px solid var(--border);
@@ -156,9 +148,7 @@ body {
   box-shadow: var(--shadow-lg), var(--shadow-glow);
 }
 
-/* ============================================================
-   Typography helpers
-   ============================================================ */
+/* Typography helpers */
 .gradient-text {
   background: var(--accent-grad);
   -webkit-background-clip: text;
@@ -182,9 +172,7 @@ body {
   border: 1px solid var(--border);
 }
 
-/* ============================================================
-   Buttons
-   ============================================================ */
+/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -258,9 +246,7 @@ body {
   width: 100%;
 }
 
-/* ============================================================
-   Inputs
-   ============================================================ */
+/* Inputs */
 .field-label {
   display: block;
   font-size: 0.82rem;
@@ -289,9 +275,7 @@ body {
   box-shadow: var(--ring);
 }
 
-/* ============================================================
-   Alerts
-   ============================================================ */
+/* Alerts */
 .alert-error {
   background: rgba(251, 113, 133, 0.10);
   border: 1px solid rgba(251, 113, 133, 0.35);
@@ -310,9 +294,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* ============================================================
-   Misc
-   ============================================================ */
+/* Misc */
 .icon-badge {
   display: inline-flex;
   align-items: center;
